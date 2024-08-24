@@ -1,20 +1,21 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |s|
-  s.name = "dorian-to_struct"
+  s.name = "dorian-progress"
   s.version = File.read("VERSION").strip
-  s.summary = "makes structs"
+  s.summary = "progress bar"
   s.description = s.summary
   s.authors = ["Dorian Marié"]
   s.email = "dorian@dorianmarie.com"
   s.files = %w[
-    lib/dorian-to_struct.rb
-    lib/dorian/to_struct.rb
-    bin/to_struct
+    lib/dorian-progress.rb
+    lib/dorian/progress.rb
+    bin/progress
     VERSION
   ]
-  s.executables << "to_struct"
-  s.homepage = "https://github.com/dorianmariecom/dorian-to_struct"
+  s.executables << "progress"
+  s.homepage = "https://github.com/dorianmariecom/dorian-progress"
   s.license = "MIT"
   s.metadata = { "rubygems_mfa_required" => "true" }
+  s.add_dependency "ruby-progressbar"
 end
