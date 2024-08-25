@@ -5,10 +5,13 @@ require "spec_helper"
 class NoopStream
   def write(*args)
   end
+
   def flush
   end
+
   def tty?
   end
+
   def print(...)
   end
 end
