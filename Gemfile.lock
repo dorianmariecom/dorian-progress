@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    dorian-progress (1.1.1)
+    dorian-progress (1.1.2)
       ruby-progressbar
 
 GEM
