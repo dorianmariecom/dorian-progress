@@ -18,5 +18,5 @@ Gem::Specification.new do |s|
   s.license = "MIT"
   s.metadata = { "rubygems_mfa_required" => "true" }
   s.add_dependency "ruby-progressbar", ">= 1.13", "< 2"
-  s.required_ruby_version = ">= 3.0"
+  s.required_ruby_version = ">= 4.0"
 end
