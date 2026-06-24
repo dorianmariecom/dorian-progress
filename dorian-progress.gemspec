@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.name = "dorian-progress"
   s.version = File.read("VERSION").strip
   s.summary = "progress bar"
-  s.description = s.summary
+  s.description = "Progress bar helper for Dorian command-line tools."
   s.authors = ["Dorian Marié"]
   s.email = "dorian@dorianmarie.com"
   s.files = %w[
@@ -17,6 +17,6 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/dorianmariecom/dorian-progress"
   s.license = "MIT"
   s.metadata = { "rubygems_mfa_required" => "true" }
-  s.add_dependency "ruby-progressbar"
+  s.add_dependency "ruby-progressbar", ">= 1.13", "< 2"
   s.required_ruby_version = ">= 3.0"
 end
